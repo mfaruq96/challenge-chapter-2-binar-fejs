@@ -11,10 +11,10 @@ function getAngkaTerbesarKedua(dataNumbers) {
         return b - a;
       });
   
-    return sortedNumber[1];
+    return sortedNumber[0];
 };
 
-const dataAngka = [9, 4, 7, 7, 4, 3, 2, 2, 8];
+const dataAngka = [9, 4, -1, 7, 7, 4, 3, 2, 10, 8, 2];
 
 console.log(getAngkaTerbesarKedua(dataAngka));
 console.log(getAngkaTerbesarKedua());

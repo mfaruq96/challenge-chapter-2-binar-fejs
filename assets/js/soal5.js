@@ -37,5 +37,6 @@ function getSpliteName(personName) {
 console.log(getSpliteName("Aldi Daniela"));
 console.log(getSpliteName("Dwi Kuncoro"));
 console.log(getSpliteName("Aurora"));
+console.log(getSpliteName("Aurora Andi Anda"));
 console.log(getSpliteName("Aurora Aureliya Sukma Darma"));
 console.log(getSpliteName(0));
